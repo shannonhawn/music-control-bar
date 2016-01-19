@@ -28,6 +28,7 @@ body {
   background-image: linear-gradient(to bottom, #e2e2e2, #ccc);
   text-align: center;
   color: #333;
+  position: relative;
 }
 
 .song {
@@ -43,11 +44,11 @@ body {
 }
 
 .album {
-
+position: absolute;
 }
 
 .time {
-
+position: absolute;
 }
 
 .time-bar {
@@ -77,6 +78,7 @@ body {
 
 .time-lapsed {
   font-size: .7rem;
+  position: absolute;
 }
 
 .time-total {
@@ -93,13 +95,17 @@ body {
 }
 
 .control-shuffle {
-
+position: absolute;
 }
 
 .control-list {
-
+position: absolute;
+right: 10px;
+top: 5px;
 }
 
 .control-heart {
-
+position: absolute;
+right: 10px;
+top: 5px;
 }
